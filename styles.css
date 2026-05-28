@@ -583,8 +583,29 @@ h3 {
   border-bottom: 1px solid var(--line);
 }
 
+.personal-details {
+  display: grid;
+  gap: 26px;
+}
+
+.personal-photo {
+  overflow: hidden;
+  margin: 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  box-shadow: 0 18px 44px rgba(31, 45, 38, 0.08);
+}
+
+.personal-photo img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: 50% 52%;
+}
+
 .personal-copy {
-  padding-top: 36px;
+  padding-top: 0;
 }
 
 .contact {
