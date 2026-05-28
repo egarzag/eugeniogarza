@@ -343,6 +343,10 @@ h3 {
   max-width: 800px;
 }
 
+.section-heading h2 + .text-link {
+  margin-top: 14px;
+}
+
 .text-link {
   display: inline-flex;
   align-items: center;
