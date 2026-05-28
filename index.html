@@ -352,23 +352,23 @@
             <span class="lang-es">Contacto</span>
           </h2>
         </div>
-        <form class="contact-form" aria-label="Contact form">
+        <form class="contact-form" action="https://formspree.io/f/mwvzyljq" method="POST" aria-label="Contact form">
           <label>
             <span class="lang-en">Name</span>
             <span class="lang-es">Nombre</span>
-            <input type="text" name="name" autocomplete="name">
+            <input type="text" name="name" autocomplete="name" required>
           </label>
           <label>
             <span class="lang-en">Email</span>
             <span class="lang-es">Correo</span>
-            <input type="email" name="email" autocomplete="email">
+            <input type="email" name="email" autocomplete="email" required>
           </label>
           <label>
             <span class="lang-en">Message</span>
             <span class="lang-es">Mensaje</span>
-            <textarea name="message" rows="5"></textarea>
+            <textarea name="message" rows="5" required></textarea>
           </label>
-          <button class="button primary" type="button">
+          <button class="button primary" type="submit">
             <span class="lang-en">Send message</span>
             <span class="lang-es">Enviar mensaje</span>
           </button>
