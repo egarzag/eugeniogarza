@@ -530,12 +530,12 @@ h3 {
 .project-visual {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  min-height: 190px;
+  height: 260px;
   border-bottom: 1px solid var(--line);
 }
 
 .project-visual span {
-  min-height: 190px;
+  min-height: 260px;
   border-right: 1px solid rgba(255, 253, 250, 0.28);
 }
 
