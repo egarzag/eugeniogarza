@@ -671,7 +671,7 @@ h3 {
 
 .site-footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   gap: 20px;
   width: min(1180px, calc(100% - 40px));
   margin: 0 auto;
@@ -793,9 +793,5 @@ h3 {
 
   .site-footer {
     display: block;
-  }
-
-  .site-footer p + p {
-    margin-top: 8px;
   }
 }
