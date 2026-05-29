@@ -519,50 +519,6 @@ h3 {
   font-weight: 820;
 }
 
-.project-visual {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  height: 260px;
-  border-bottom: 1px solid var(--line);
-}
-
-.project-visual span {
-  min-height: 260px;
-  border-right: 1px solid rgba(255, 253, 250, 0.28);
-}
-
-.project-visual span:last-child {
-  border-right: 0;
-}
-
-.citysignals .project-visual {
-  background:
-    linear-gradient(135deg, rgba(18, 51, 40, 0.92), rgba(36, 72, 95, 0.88)),
-    var(--green-deep);
-}
-
-.citysignals .project-visual span:nth-child(1) {
-  background: rgba(201, 151, 70, 0.24);
-}
-
-.citysignals .project-visual span:nth-child(3) {
-  background: rgba(255, 253, 250, 0.16);
-}
-
-.utopio .project-visual {
-  background:
-    linear-gradient(135deg, rgba(154, 79, 63, 0.94), rgba(31, 77, 58, 0.88)),
-    var(--clay);
-}
-
-.utopio .project-visual span:nth-child(2) {
-  background: rgba(247, 243, 235, 0.2);
-}
-
-.utopio .project-visual span:nth-child(4) {
-  background: rgba(36, 72, 95, 0.24);
-}
-
 .project-content {
   padding: 28px;
 }
